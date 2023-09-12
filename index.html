@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+      sample website
+    </title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="pos">
+    <ul>
+      <li class="hover"><a href="#">Home</a></li>
+      <li class="hover"><a href="#">About Us</a></li>
+      <li class="hover"><a href="#">Services</a></li>
+      <li class="hover"><a href="#">Contact Us</a></li>
+      <img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Logo_Bluebird.png" alt="logo">
+    </ul>
+  </div>
+    <div>
+      <img id="position-img" src="https://chenhuijing.com/assets/images/posts/css-positioning.jpg" alt="position">
+    </div>
+    <div>
+      <p><b>Static</b> <br> <br>
+        The element is positioned according to the normal flow of the document. The top, right, bottom, left, and z-index properties have no effect. This is the default value. <br> <br>
+        
+        <b>Relative</b> <br> <br>
+        The element is positioned according to the normal flow of the document, and then offset relative to itself based on the values of top, right, bottom, and left. The offset does not affect the position of any other elements; thus, the space given for the element in the page layout is the same as if position were static. <br>
+        
+        This value creates a new stacking context when the value of z-index is not auto. Its effect on table-*-group, table-row, table-column, table-cell, and table-caption elements is undefined. <br> <br>
+        
+        <b>Absolute</b> <br> <br>
+        The element is removed from the normal document flow, and no space is created for the element in the page layout. The element is positioned relative to its closest positioned ancestor (if any) or to the initial containing block. Its final position is determined by the values of top, right, bottom, and left. <br>
+        
+        This value creates a new stacking context when the value of z-index is not auto. The margins of absolutely positioned boxes do not collapse with other margins. <br> <br>
+        
+        <b>Fixed</b> <br> <br>
+        The element is removed from the normal document flow, and no space is created for the element in the page layout. The element is positioned relative to its initial containing block, which is the viewport in the case of visual media. Its final position is determined by the values of top, right, bottom, and left. <br>
+        
+        This value always creates a new stacking context. In printed documents, the element is placed in the same position on every page. <br> <br>
+        
+        <b>Sticky</b> <br> <br>
+        The element is positioned according to the normal flow of the document, and then offset relative to its nearest scrolling ancestor and containing block (nearest block-level ancestor), including table-related elements, based on the values of top, right, bottom, and left. The offset does not affect the position of any other elements. <br>
+        
+        This value always creates a new stacking context. Note that a sticky element "sticks" to its nearest ancestor that has a "scrolling mechanism" (created when overflow is hidden, scroll, auto, or overlay), even if that ancestor isn't the nearest actually scrolling ancestor. <br> <br></p>
+    </div>
+    <footer></footer>
+
+  </body>
+</html>
